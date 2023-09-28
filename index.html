@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <div>
+    <h1>Calculator</h1>
+   </div> 
+
+   <div class="main">
+    <div><input type="text" disabled name="" id="input"></div>
+<div class="flex">
+    <div><button onclick="clr()" class="light-gray">C</button></div>
+    <div><button onclick="del()" class="light-gray"><i class="fa-solid fa-arrow-left"></i></button></div>
+    <div><button onclick="get('%')" class="light-gray">%</button></div>
+    <div><button onclick="get('/')" class="orange">/</button></div>
+</div>
+<div class="flex">
+    <div><button onclick="get(7)">7</button></div>
+    <div><button onclick="get(8)">8</button></div>
+    <div><button onclick="get(9)">9</button></div>
+    <div><button onclick="get('*')" class="orange">x</button></div>
+</div>
+<div class="flex">
+    <div><button onclick="get(4)">4</button></div>
+    <div><button onclick="get(5)">5</button></div>
+    <div><button onclick="get(6)">6</button></div>
+    <div><button onclick="get('-')" class="orange">-</button></div>
+</div>
+<div class="flex">
+    <div><button onclick="get(1)">1</button></div>
+    <div><button onclick="get(2)">2</button></div>
+    <div><button onclick="get(3)">3</button></div>
+    <div><button onclick="get('+')" class="orange">+</button></div>
+</div>
+<div class="flex">
+    <div class="zero-div"><button onclick="get(0)" class="zero">0</button></div>
+    <div><button onclick="get('.')">.</button></div>
+    <div><button onclick="calculate()" class="orange">=</button></div>
+</div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
