@@ -26,8 +26,15 @@ button{
     color: white;
     background-color: gray;
     border: none;
+    cursor: pointer;
    
 }
+
+button:hover{
+    background-color: rgb(235, 229, 229);
+    color: black;
+}
+
 .flex{
     display: flex;
     width: 100%;
