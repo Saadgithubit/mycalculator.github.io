@@ -25,6 +25,7 @@ button{
     font-size: 25px;
     color: white;
     background-color: gray;
+    border: none;
    
 }
 .flex{
